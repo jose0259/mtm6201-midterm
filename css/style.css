@@ -198,11 +198,12 @@ li a {
 
 li a:hover:not(.active) {
   background-color: rgb(26, 26, 26);
+  font-weight: 500;
 }
 
 .active {
   background-color: #f7c00b;
-  ;
+  font-weight: 600;
 }
 
 .text-block {
@@ -343,6 +344,7 @@ margin-right: 10PX;
 .content {
   background-color: white;
   padding: 10px;
+  line-height: 1.6;
 }
 
 .content h3{
@@ -350,6 +352,7 @@ margin-right: 10PX;
   margin-left: 40%;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight:600;
 }
 
 .content p{
@@ -382,7 +385,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: montserrat;
 }
 
 input[type=submit] {
@@ -392,6 +395,8 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: montserrat;
+  font-weight: 600;
 }
 
 input[type=submit]:hover {
@@ -411,7 +416,7 @@ footer{
   padding:16px;
   color: #c08a25;
   margin-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: montserrat;
   text-decoration: none;
 }
 
