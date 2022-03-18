@@ -50,7 +50,17 @@ table {
 }
 
 /*Design for Mobile starts here*/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) 
+
+{
+
+.full-container{
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: montserrat;
+}
+
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -64,7 +74,7 @@ table {
   margin: auto;
   width: 100%;
   float: left;
-  flex-direction: row;
+  flex-direction: column;
 }
 ul {
   list-style-type: none;
@@ -79,6 +89,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  
 }
 
 li a.active {
@@ -91,34 +102,115 @@ li a:hover:not(.active) {
   color: white;
 }
 
+.text-block {
+  position: absolute;
+  bottom: 200px;
+  right: 50%;
+  background-color: rgb(97, 97, 97);
+  color: white;
+  padding-left: 100%;
+  padding-right: 20px;
+}
+
+
 .background {
   position: relative;
   width:100%;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+.centered .sub-text{
+ font-size: 2rem;
+ color: #f1a516;
 }
 
 .banner-image{
   width: 100%;
 }
 
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+.about-me h1{
+  margin-left: 30%;
+  font-size: 30px;
+  padding-top: 40px;
+  font-weight: bold;
 }
 .about-flex {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
+
+.about-content{
+  margin-left: 2%;
+  margin-right: 10%;
+  line-height: 1.6;
+}
+
+.about-image{
+max-width: 300px;
+margin-right: 10PX;
+margin-left: 2%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.portfolio h1
+{
+  margin-left: 30%;
+  font-size: 30px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.tab{
+  margin:auto;
+  }
+
 .tab ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(212, 23, 23);
+  background-color: rgb(255, 225, 161);
 }
 
 .tab li {
@@ -127,30 +219,119 @@ li a:hover:not(.active) {
 
 .tab li a {
   display: block;
-  color: rgb(184, 34, 34);
+  color: rgb(19, 19, 19);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .tab li a:hover:not(.active) {
-  background-color: rgb(15, 66, 233);
+  background-color: rgb(255, 137, 59);
 }
 
 .tab .active {
-  background-color: #e00685;
+  background-color: #fdd627;
 }
 
 .gallery-flex{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .content {
   background-color: white;
   padding: 10px;
+  line-height: 1.6;
+}
+
+.content h3{
+  font-size: 24px;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:600;
+  
+}
+
+.content p{
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-full h3{
+  margin-left: 20%;
+  font-size: 30px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+.contact-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: montserrat;
+}
+
+input[type=submit] {
+  background-color: #f5aa08;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: montserrat;
+  font-weight: 600;
+}
+
+input[type=submit]:hover {
+  background-color: #d47f00;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #fff5e9;
+  padding: 20px;
+  flex-grow: 1;
+  margin-left: 0px;
+}
+
+footer{
+  background-color:#222;
+  padding:16px;
+  color: #c08a25;
+  margin-top: 20px;
+  font-family: montserrat;
+  text-decoration: none;
+}
+
+.footer a{
+  color: #c08a25;
 }
 }
+
+
+
+
+
+
+
+
+
+
 
 /*Design for Web starts here*/
 @media screen and (min-width: 760px) {
@@ -353,6 +534,7 @@ margin-right: 10PX;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight:600;
+  
 }
 
 .content p{
