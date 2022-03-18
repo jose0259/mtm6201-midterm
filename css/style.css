@@ -266,6 +266,10 @@ margin-right: 10PX;
   margin-bottom: 20px;
 }
 
+.tab{
+  margin:auto;
+  }
+
 .tab ul {
   list-style-type: none;
   margin: 0;
@@ -287,7 +291,7 @@ margin-right: 10PX;
 }
 
 .tab li a:hover:not(.active) {
-  background-color: rgb(58, 58, 58);
+  background-color: rgb(255, 137, 59);
 }
 
 .tab .active {
