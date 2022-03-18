@@ -155,6 +155,11 @@ li a:hover:not(.active) {
 /*Design for Web starts here*/
 @media screen and (min-width: 760px) {
 
+.full-container{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -218,7 +223,6 @@ li a:hover:not(.active) {
   position: absolute;
   top: 30%;
   left: 10%;
-  
   font-size: 4rem;
   
 }
@@ -235,21 +239,39 @@ li a:hover:not(.active) {
 .about-me h1{
   margin-left: 40%;
   font-size: 50px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .about-flex {
-  
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
 
+.about-content{
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.6;
+}
+
+.about-image{
+max-width: 300px;
+margin-right: 10PX;
+}
+
+.portfolio h1
+{
+  margin-left: 40%;
+  font-size: 50px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
 
 .tab ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(212, 23, 23);
+  background-color: rgb(255, 225, 161);
 }
 
 .tab li {
@@ -258,18 +280,18 @@ li a:hover:not(.active) {
 
 .tab li a {
   display: block;
-  color: rgb(184, 34, 34);
+  color: rgb(19, 19, 19);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .tab li a:hover:not(.active) {
-  background-color: rgb(15, 66, 233);
+  background-color: rgb(58, 58, 58);
 }
 
 .tab .active {
-  background-color: #e00685;
+  background-color: #fdd627;
 }
 
 .gallery-flex{
