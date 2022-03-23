@@ -337,6 +337,10 @@ margin-left: 2%;
   flex-direction: column;
 }
 
+.my-image{
+  width: 100%;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -364,6 +368,7 @@ input[type=submit]:hover {
   background-color: #d47f00;
 }
 
+
 .contact {
   border-radius: 5px;
   background-color: #fff5e9;
@@ -371,6 +376,7 @@ input[type=submit]:hover {
   flex-grow: 1;
   margin-left: 0px;
 }
+
 
 footer{
   background-color:#222;
