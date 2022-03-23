@@ -131,6 +131,69 @@ li a:hover:not(.active) {
  color: #f1a516;
 }
 
+.sub-text p {
+  text-align: center;
+  color:#313131;
+  font-weight: bold;
+  animation:colorchange 20s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+
 .banner-image{
   width: 100%;
 }
@@ -323,6 +386,7 @@ footer{
 
 .footer a{
   color: #c08a25;
+  margin-top: 10px;
   
 }
 }
@@ -418,6 +482,76 @@ li a:hover:not(.active) {
 .centered .sub-text{
  font-size: 3rem;
  color: #f1a516;
+}
+
+.sub-text p {
+      
+
+  text-align: center;
+  
+  color:#313131;
+  font-size:45px;
+  font-weight: bold;
+  position: absolute;
+  animation:colorchange 20s infinite alternate;
+  
+  
+}
+
+@keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
 }
 
 .banner-image{
@@ -604,11 +738,45 @@ footer{
   margin-top: 20px;
   font-family: montserrat;
   text-decoration: none;
+  
 }
 
 .footer a{
   color: #c08a25;
   
 }
+.footer-a{
+  margin-left: 40%;
+}
+
+.menu-b ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(202, 202, 202, 0);
+  margin-left: 36%;
+}
+
+.menu-b li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(26, 26, 26);
+  font-weight: 500;
+}
+
+
+
+
 
 }
