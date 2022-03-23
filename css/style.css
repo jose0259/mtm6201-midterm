@@ -202,7 +202,7 @@ li a:hover:not(.active) {
 
 /*About Me starts here*/
 .about-me h1{
-  margin-left: 30%;
+  margin-left: 40%;
   font-size: 30px;
   padding-top: 40px;
   font-weight: bold;
@@ -264,7 +264,7 @@ margin-right: 10PX;
 /*My Works starts here*/
 .portfolio h1
 {
-  margin-left: 30%;
+  margin-left: 40%;
   font-size: 30px;
   padding-top: 40px;
   margin-bottom: 20px;
@@ -323,7 +323,7 @@ margin-right: 10PX;
 
 .content h3{
   font-size: 24px;
-  margin-left: 30%;
+  margin-left: 40%;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight:600;
@@ -339,7 +339,7 @@ margin-right: 10PX;
 }
 
 .contact-full h3{
-  margin-left: 20%;
+  margin-left: 35%;
   font-size: 30px;
   padding-top: 40px;
   margin-bottom: 10px;
